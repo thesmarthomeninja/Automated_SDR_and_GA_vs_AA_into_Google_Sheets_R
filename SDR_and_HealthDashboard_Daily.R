@@ -2,7 +2,7 @@
 # it took for the process to run.
 monitorStartTime <- Sys.time()
 
-# Packages needed
+# Packages needed - don't forget to install.packages() for each of these first before performing any automations for your first manual run.
 library(RSiteCatalyst) # Get data from Adobe Analytics
 library(jsonlite) # Needed for RSiteCatalyst (?)
 library(devtools) # Needed for RSiteCatalyst (?)
