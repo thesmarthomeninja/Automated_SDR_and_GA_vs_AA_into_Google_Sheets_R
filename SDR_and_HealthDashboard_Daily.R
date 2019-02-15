@@ -388,15 +388,10 @@ for (r in 1:nrow(RSIDs)){
 }
 
 
-
-#working on this
-#gs_upload(c_reportsuiteID,".xlsx",sep="", sheet_title=c_reportsuiteID, verbose = TRUE, overwrite = TRUE)
-
-
 #Upload excel sheets into google sheet - you first need to run these two (remove # symbols for first run)
 #gs_upload("rsid1.xlsx", sheet_title ="rsid1 sheet name", verbose = TRUE)
 #gs_upload ("rsid2.xlsx", sheet_title ="rsid2 sheet name", verbose = TRUE)
-#after running these ^^^^^ then add the # sign or just delete each line and run these below for when you automate
+
 
 #these are for when you automate - and you want it to update using overwrite = true
 gs_upload("rsid1.xlsx", sheet_title ="rsid1", verbose = TRUE, overwrite = TRUE)
