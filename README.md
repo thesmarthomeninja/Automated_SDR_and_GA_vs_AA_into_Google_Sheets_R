@@ -6,6 +6,7 @@ Here's a video to help you out as well: https://youtu.be/-wUB0aplnik
 Note: This video only shows manual run of SDR.
 
 An Another Video of Google Sheets w/ SDR: https://youtu.be/v1yQD3ziO1w
+
 Note: This shows using Task Scheduler, R and Google Sheets.
 
 Pre-requisites:
